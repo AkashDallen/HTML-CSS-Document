@@ -1,0 +1,117 @@
+# HTML-CSS-Document
+Simple INEVNTORY MANAGEMENT SYSTEM ,by using html and css.
+
+
+<!DOCTYPE html>
+<html>
+    <head>  
+        <link rel="stylesheet" href="bookstore.css">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My Bookstore</title>
+        <style>
+            .header{
+                background: linear-gradient(-70deg, black 20%, rgb(168, 42, 116) 100%);
+            }
+        </style>
+    </head>    
+    <body>
+        <header class="header">
+            <img src="images/logo.jpeg" alt="logo">
+            <h1>MIZT LAPTOPS</h1>
+            <p>" Welcome to the World of Laptops.This place provides you with
+            the best laptops. "</p><br><hr style="color:white">
+            <div class="navigate">
+                <nav class="nav">
+                    <ul class="unorder">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                        <li><a href="#">ORDERS</a></li>
+                    </ul>
+                    <form action="#" class="form">
+                        <input type="text" id="search" placeholder="search here...">
+                        <label for="search"><a href="#">Search..</a></label>
+                    </form>
+                </nav>
+                <br><br>
+            </div>
+        </header>
+        <br><br>
+        <main class="main">
+            <section class="section">
+                <h2>Welcome To MIZT's World For Dream Laptops</h2><br><br>
+                <p>We are MIZT, we provide high quality laptops.This is your dream world of laptops.We provide laptops at less prize.Its too affordable and we have 10 days manye back gaurantee :)......</p>
+            </section>
+            <br><hr><br>
+                <h1 class="category">******LAPTOPS******</h1>
+            <br>
+            <div class="images">
+                <div class="sub">
+                    <span>--ACER--</span>
+                    <img src="images/lap1.jpg" alt="image1">
+                    <a href="#">*BUY NOW*</a>
+                </div>
+                <div class="sub">
+                    <span>--DELL--</span>
+                    <img src="images/lap1.jpg" alt="image1">
+                    <a href="#">*BUY NOW*</a>
+                </div>
+                <div class="sub">
+                    <span>--HP--</span>
+                    <img src="images/lap1.jpg" alt="image1">
+                    <a href="#">*BUY NOW*</a>
+                </div>
+                <div class="sub">
+                    <span>--LENOVO--</span>
+                    <img src="images/lap1.jpg" alt="image1">
+                    <a href="#">*BUY NOW*</a>
+                </div><br><br>
+                <div class="sub">
+                    <span>--ASUS--</span>
+                    <img src="images/lap1.jpg" alt="image1">
+                    <a href="#">*BUY NOW*</a>
+                </div>
+                <div class="sub">
+                    <span>--MSI--</span>
+                    <img src="images/lap1.jpg" alt="image1">
+                    <a href="#">*BUY NOW*</a>
+                </div>
+                <div class="sub">
+                    <span>--APPLE--</span>
+                    <img src="images/lap1.jpg" alt="image1">
+                    <a href="#">*BUY NOW*</a>
+                </div>
+                <div class="sub">
+                    <span>--AMD--</span>
+                    <img src="images/lap1.jpg" alt="image1">
+                    <a href="#">*BUY NOW*</a>
+                </div>
+            </div>
+            <br><br><br>
+            <section class="thanks">
+                <h2>Thanks For Visiting :)</h2>
+                <p>We are growing day by day, thanks for visiting have a nice day.Any querries feel free to contact support.</p>
+                <fieldset class="fieldset">
+                    <legend>Login</legend>
+                    <form action="#">
+                        <br>
+                        <label for="username">Username/Email</label>
+                        <input type="email" name="login" id="username" placeholder="Creator Akash" class="user">
+                        <br><br>
+                        <label for="pass">Password</label>
+                        <input type="password" name="login" id="pass" placeholder="RVCE Bangalore" required class="pasw">
+                        <br><br>
+                        <input type="button" value="SUBMIT" class="button">
+                        <br>
+                        <br>
+                    </form>
+                </fieldset>
+            </section>
+            <footer>
+                <p>MIZT TECH&copy;2022</p>
+            </footer>
+        </main>
+    </body>
+</html>
